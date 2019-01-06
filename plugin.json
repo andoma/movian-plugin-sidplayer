@@ -1,0 +1,23 @@
+{
+  "description": "This plugin extends Movian with support for playing C64 SID files<p>Both PSID and RSID files are supported<p>Copyright (C) 1999-2012 T. Hinrichs, R. Sinsch (original licensing applies)<br>Tiny'R'Sid PSID & RSID emulator extensions<br>Copyright (C) 2013 Juergen Wothke<br>Terms of Use: This software is licensed under a CC BY-NC-SA",
+  "author": "Andreas Smas",
+  "title": "SID Player",
+  "synopsis": "SID Player engine for C64 Music",
+  "version": "1.0.1",
+  "file": "sid.bc",
+  "showtimeVersion": "5.0.369",
+  "type": "bitcode",
+  "id": "sidplayer",
+  "icon": "mos6581.png",
+  "category": "audioengine",
+
+  "control": {
+    "fileformats": [{
+      "data": "UlNJRA==",
+      "mask": "/////w=="
+    }, {
+      "data": "UFNJRA==",
+      "mask": "/////w=="
+    }]
+  }
+}
